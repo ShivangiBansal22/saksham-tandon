@@ -7,16 +7,22 @@
 
 @media screen and (max-width: 600px){
 
-    body{
+    .body{
         padding: 12px 12px;
     }
-    nav{
+    .nav{
         padding: 4px 12px;
         font-size: 14px;
         padding: 12px 0px;
     }
     .hero-heading{
         font-size: 32px;
+    }
+    .contacts{
+        display: flex;
+        justify-content: center;
+        margin: 0px;
+        gap: 8px;
     }
 }
 

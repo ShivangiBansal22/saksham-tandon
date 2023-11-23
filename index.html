@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevFolio</title>
+    <link rel="stylesheet" href="style.css" >
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;700&family=PT+Serif:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=PT+Serif:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body class="body">
+    <header class="header"> 
+        <div>
+            <a class="nav" href="#About-Section">About</a>
+        </div>
+        <div>
+            <a class="nav" href="#Projects-Section">Projects</a>
+        </div>
+        <div>
+            <a class="nav" href="#Contact-Section">Contact</a>
+        </div>
+    </header>
+    <main>
+        <section class="hero">
+            <div class="hero-heading" id="heroHeading"> > Saksham Tandon</div>
+            <div class="hero-body">
+                <p>
+                    I am a web developer at Nokia. My passion is building simple, usable & functional applications.
+                </p>
+                <p>
+                    Check out my <a class="inline-links" href="#Projects-Section">personal-projects</a> below.
+                </p>
+            </div>
+        </section>
+        <section class="browser" id="About-Section">
+            <div class="browser-control">
+                <div class="browser-control-red"> </div>
+                <div class="browser-control-yellow"> </div>
+                <div class="browser-control-green"> </div>
+            </div>
+            <div class="browser-display">
+                <p>About Me</p>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                </p>
+            </div>
+        </section>
+        <section id="Projects-Section">
+            <div class="section-heading-block">
+                <p class="section-heading"> Projects</p>
+            </div>
+            <div class="project-list">
+                <div class="project-card">
+                    <div class="project-thumbnail">
+                        <img class="project-thumbnail-image" src="images/thumbnail.png">
+                    </div>
+                    <div class="project-content">
+                        <div>
+                            <p class="project-title">Title</p>
+                            <p class="project-description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                        </div>
+                        <div class="project-taglist">
+                            <div class="project-tag">Java</div>
+                            <div class="project-tag">Django</div>
+                            <div class="project-tag">Java</div>
+                            <div class="project-tag">Django</div>
+                            <div class="project-tag">Java</div>
+                            <div class="project-tag">Django</div>
+                            <div class="project-tag">Java</div>
+                            <div class="project-tag">Django</div>
+                            <div class="project-tag">Java</div>
+                            <div class="project-tag">Django</div>
+                            <div class="project-tag">Java</div>
+                            <div class="project-tag">Django</div>
+                        </div>
+                        <div class="button">
+                            <button class="primary-button">
+                                Live Demo  
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-up-right" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5"/>
+                                <path fill-rule="evenodd" d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0z"/>
+                              </svg>
+                            </button>
+                            <button class="secondary-button"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+                                <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8"/>
+                              </svg>
+                              View Source
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-thumbnail">
+                        <img class="project-thumbnail-image" src="images/thumbnail.png">
+                    </div>
+                    <div class="project-content">
+                        <div>
+                            <p class="project-title">Title</p>
+                            <p class="project-description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                        </div>
+                        <div class="project-taglist">
+                            <div class="project-tag">Java</div>
+                            <div class="project-tag">Django</div>
+                        </div>
+                        <div class="button">
+                            <button class="primary-button">
+                                Live Demo
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-up-right" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5"/>
+                                <path fill-rule="evenodd" d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0z"/>
+                              </svg>
+                            </button>
+                            <button class="secondary-button">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+                                <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8"/>
+                              </svg>
+                              View Source
+                            </button>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>   
+        </section>
+        <section id="Contact-Section">
+            <div class="section-heading-block">
+                <p class="section-heading">Contact me!</p>
+            </div>
+            <div class="contacts">
+                <a class="contact-link" href = "mailto: saksham12356@gmail.com" target="_blank">saksham12356@gmail.com</a>
+                <div class="contact-link-separator">||</div>
+                <a class="contact-link" href = "https://www.linkedin.com/in/tandon-saksham/" target="_blank">Linkedin</a>
+                <div class="contact-link-separator">||</div>
+                <a class="contact-link" href = "https://gitlab.com/sakshamtandon" target="_blank">GitHub</a>
+            </div>
+        </section>
+        <footer>
+            <p class="footer">Made by Shivangi Bansal & Saksham Tandon &copy 2023</p>
+        </footer>
+    </main> 
+
+
+    <script src="index.js"> </script>
+
+</body>
+</html> 

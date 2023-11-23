@@ -29,8 +29,9 @@
     }
 
     .project-content{
-        flex:1
+        flex:1;
     }
+
     .contacts{
         display: flex;
         justify-content: center;
@@ -126,6 +127,7 @@ span {
 .browser{
   box-shadow: 2px 4px 16px rgb(0, 0, 0, 0.15); 
   margin-top: 40px;
+  min-width: 360px;
 }
 
 .browser-control{
@@ -239,6 +241,9 @@ span {
     display: flex;
     justify-items: flex-start;
     gap: 20px;
+    gap: 8px;
+    flex: 1 0 0;
+    flex-wrap: wrap;
 }
 
 .primary-button{
@@ -254,6 +259,7 @@ span {
     font-weight: 500;
     cursor: pointer;
     text-decoration: none;
+    min-width: 120px;
 }
 
 .primary-button:hover{
@@ -274,6 +280,7 @@ span {
     font-weight: 500;
     cursor: pointer;
     text-decoration: none;
+    min-width: 120px;
 }
 
 .secondary-button:hover{
